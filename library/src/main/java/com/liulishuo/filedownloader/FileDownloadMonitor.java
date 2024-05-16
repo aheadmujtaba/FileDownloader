@@ -52,7 +52,7 @@ public class FileDownloadMonitor {
      *
      * @see FileDownloadMonitor#setGlobalMonitor(IMonitor)
      */
-    public interface IMonitor {
+    public interface    IMonitor {
         /**
          * Request to start multi-tasks manually.
          *

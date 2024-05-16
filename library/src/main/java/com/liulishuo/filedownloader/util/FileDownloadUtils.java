@@ -839,7 +839,7 @@ public class FileDownloadUtils {
     }
 
     public static String defaultUserAgent() {
-        return formatString("FileDownloader/%s", BuildConfig.VERSION_NAME);
+        return formatString("FileDownloader/%s","sdf" );
     }
 
     private static boolean isAppOnForeground(Context context) {

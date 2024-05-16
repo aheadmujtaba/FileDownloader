@@ -9,7 +9,7 @@ public interface Constant {
             "http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx?0.04400023248109086",
     };
 
-    String LIULISHUO_APK_URL = "http://cdn.llsapp.com/android/LLS-v4.0-595-20160908-143200.apk";
+    String LIULISHUO_APK_URL = "https://ash-speed.hetzner.com/100MB.bin";
     String LIULISHUO_CONTENT_DISPOSITION_FILENAME = "LLS-v4.0-595-20160908-143200.apk";
 
     String[] BIG_FILE_URLS = {

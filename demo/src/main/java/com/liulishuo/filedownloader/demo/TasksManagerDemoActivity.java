@@ -554,7 +554,7 @@ public class TasksManagerDemoActivity extends AppCompatActivity {
             if (model != null) {
                 return model;
             }
-            final TasksManagerModel newModel = dbController.addTask(url, path);
+            final TasksManagerModel newModel = dbController. addTask(url, path);
             if (newModel != null) {
                 modelList.add(newModel);
             }

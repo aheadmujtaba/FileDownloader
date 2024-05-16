@@ -72,7 +72,7 @@ public class NotificationSampleActivity extends AppCompatActivity {
         startDownload.setEnabled(false);
         final FileDownloadQueueSet queueSet = new FileDownloadQueueSet(listener);
         final List<BaseDownloadTask> tasks = new ArrayList<>();
-        final int taskCount = 5;
+        final int taskCount = 2;
         for (int i = 0; i < taskCount; i++) {
             tasks.add(FileDownloader.getImpl()
                     .create(Constant.URLS[i])

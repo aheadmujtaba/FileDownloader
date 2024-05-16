@@ -57,7 +57,7 @@ public class GlobalMonitor implements FileDownloadMonitor.IMonitor {
 
     @Override
     public void onTaskStarted(BaseDownloadTask task) {
-
+        Log.d(TAG, "onTaskStarted:"+task.getFilename());
     }
 
     @Override

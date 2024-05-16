@@ -198,8 +198,7 @@ public class SingleTaskTestActivity extends AppCompatActivity {
                     @Override
                     protected void progress(BaseDownloadTask task, int soFarBytes, int totalBytes) {
                         super.progress(task, soFarBytes, totalBytes);
-                        ((ViewHolder) task.getTag()).updateProgress(soFarBytes, totalBytes,
-                                task.getSpeed());
+                        ((ViewHolder) task.getTag()).updateProgress(soFarBytes, totalBytes, task.getSpeed());
                     }
 
                     @Override
